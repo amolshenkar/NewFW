@@ -24,6 +24,7 @@ public class BaseClass {
 		 excel= new ExcelDataProvider();
 		 config= new ConfigDataProvider();
 	}
+	
 	//application start 
 	@BeforeClass
 	public void setup()
