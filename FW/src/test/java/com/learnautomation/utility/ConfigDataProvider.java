@@ -8,6 +8,7 @@ import java.util.Properties;
 public class ConfigDataProvider {
 	
 	public Properties pro;
+	
 	public ConfigDataProvider()
 	{
 		File src = new File("./Config/Config.properties");
