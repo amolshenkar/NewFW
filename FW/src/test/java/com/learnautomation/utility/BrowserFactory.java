@@ -30,8 +30,10 @@ public class BrowserFactory {
 			System.out.println("Sorry we do not support this browser");
 		}
 		//driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		
 		driver.manage().window().maximize();
 		driver.get(appURL);
+		
 		//driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		//driver.manage().timeouts().wait(30,TimeUnit.SECONDS);
 		
